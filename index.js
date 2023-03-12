@@ -59,7 +59,7 @@ const startGame = async (chatId) => {
 			}else{
 				await bot.sendMessage(chatId, `Увы,но ты не угадал. Я загадал цифру ${chats[chatId]}`, againOptions); 
 			}
-			
+			console.log(chats[chatId])
 		})
 		
 	
